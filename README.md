@@ -46,3 +46,19 @@ ExposureTime             : 0.009281
 FNumber                  : 2.1
 ExposureBiasValue        : 0.0
 ```
+
+
+## exifread	
+```
+cannot import name 'Image' from partially initialized module 'exif' 
+```
+
+## exifreader
+```
+cannot import name 'Image' from partially initialized module 'exif' 
+```
+
+## exif
+```
+cannot import name 'Image' from partially initialized module 'exif' 
+```
