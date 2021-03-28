@@ -2,7 +2,7 @@ from PIL import Image
 from PIL.ExifTags import TAGS
 
 # path to the image or video
-imagename = "4.mp4"
+imagename = "1.jpg"
 
 # read the image data using PIL
 image = Image.open(imagename)
