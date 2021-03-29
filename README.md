@@ -62,3 +62,77 @@ cannot import name 'Image' from partially initialized module 'exif'
 ```
 cannot import name 'Image' from partially initialized module 'exif' 
 ```
+
+## meta-extractor
+```
+The library understands several formats of metadata, many of which may be present in a single image:
+
+Exif
+IPTC
+XMP
+JFIF / JFXX
+ICC Profiles
+Photoshop fields
+WebP properties
+Netpbm properties
+PNG properties
+BMP properties
+GIF properties
+ICO properties
+PCX properties
+It supports various file types.
+
+Images
+
+BMP
+EPS
+GIF
+HEIF / HEIC
+ICO
+JPEG / JFIF
+Netpbm
+PCX
+PNG
+PSD
+TGA
+TIFF
+WebP
+Camera Raw
+ARW (Sony)
+CR2 (Canon)
+NEF (Nikon)
+ORF (Olympus)
+RW2 (Panasonic)
+RWL (Leica)
+SRW (Samsung)
+Movies
+
+AVCI
+AVI
+MOV (QuickTime)
+MP4
+Audio
+
+WAV
+Camera-specific "makernote" data is decoded for cameras manufactured by:
+
+Agfa
+Apple
+Canon
+Casio
+DJI
+Epson
+Fujifilm
+Kodak
+Kyocera
+Leica
+Minolta
+Nikon
+Olympus
+Panasonic
+Pentax
+Reconyx
+Sanyo
+Sigma/Foveon
+Sony
+```
